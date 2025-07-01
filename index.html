@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#skills">
+                        <li>skills</li>
+                    </a>
+                    <a href="#projects">
+                        <li>Project</li>
+                    </a>
+                    <a href="#contact">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="home">
+            <div class="text">
+                <h3 class="fade-in">Hi, I'm Vighnesh Gunaga</h3>
+                <p>
+                <h5>Information Science & Engineering Student
+                    <br>
+                    Passinate about Web Development<br>Programming languages, and Tech Innovations <br>
+                    And I am a
+                </h5>
+
+                </p>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="me3.jpg" alt="">
+            </div>
+
+        </section>
+        <section>
+            <div class="social-icons">
+                <a href="mailto:gunagavighnesh6571@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/vighnesh_gunaga_"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/Vighnesh Gunaga"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/vighnesh-5887" target="_blank"><i class="fab fa-github" ></i></a>
+            </div>
+        </section>
+        <section>
+            <div class="button-container">
+                <a href=#about><button class="more">More about me</button></a>
+            </div>
+        </section>
+        <hr>
+        <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <p class="tagline">"Turning ideas into reality through code."</p>
+            <p>
+                Hello! I'm Vighnesh Suresh Gunaga, a passionate Information Science and Engineering student of Canara
+                Engineering College Mangalore. I have a strong
+                interest in Web Development, and I enjoy building responsive and interactive websites.
+            </p>
+            <p>
+                I am skilled in HTML, CSS, JavaScript, and C Programming. Currently, I’m exploring JavaScript and
+                working
+                on personal projects like a weather app and some Temple Website. My aim is to become a full-stack
+                developer and contribute to
+                innovative solutions.
+            </p>
+            <p>
+                Apart from coding, I love reading novels, cycling, playing cricket and learning new technologies.
+            </p>
+        </section>
+        <hr>
+        <section class="about-skills" id="skills">
+            <h1 class="header2">My <span style="color: aqua;">Technical Skills</span></h1>
+
+            <div class="skills">
+                <div class="skill" data-percentage="90">
+                    <i class="fab fa-html5" style="color: rgb(212, 105, 18);"></i>
+                    <div class="percentage">90%</div>
+                    <div class="label">HTML</div>
+                </div>
+
+                <div class="skill" data-percentage="60">
+                    <i class="fab fa-css3-alt" style="color: rgb(38, 85, 204);"></i>
+                    <div class="percentage">80%</div>
+                    <div class="label">CSS</div>
+                </div>
+
+                <div class="skill" data-percentage="50">
+                    <i class="fab fa-js" style="color: rgb(238, 238, 50);"></i>
+                    <div class="percentage">50%</div>
+                    <div class="label">JavaScript</div>
+                </div>
+
+                <div class="skill" data-percentage="70">
+                    <i class="fab fa-cuttlefish" style="color: rgb(105, 179, 240);"></i>
+                    <div class="percentage">70%</div>
+                    <div class="label">C</div>
+                </div>
+
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <section class="portfolio" id="projects">
+            <h2>My Projects</h2>
+            <p>Witness the beauty of creativity and code through my projects.</p>
+
+            <div class="gallery">
+                <div class="card">
+                    <h5>Project-1</h5>
+                    <img src="weather.png" alt="Project 1">
+                    <h3>Weather App</h3>
+                    <p>A simple responsive weather forecast<br> app built using HTML, CSS & JS.</p>
+                </div>
+                <div class="card">
+                    <h5>Project-2</h5>
+                    <img src="temple.png" alt="Project 2">
+                    <h3>Temple Website</h3>
+                    <p>Temple website using HTML, CSS & Js.<br>It tells about the history and rituals.</p>
+                </div>
+                <div class="card">
+                    <h5>Project-3</h5>
+                    <img src="canva.jpg" alt="Project 3">
+                    <h3>Invitation Page</h3>
+                    <p>Creative invitation page for a program,<br>using modern canva app.</p>
+                </div>
+                <div class="card">
+                    <h5>Project-4</h5>
+                    <img src="ram.jpg" alt="Project 4">
+                    <h3>My Sketch</h3>
+                    <p>Creative pencil sketch and painting are my hobby,<br>and it is my passion.</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="afb9c14a-6a43-4b89-b7d1-67beca916168">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="response"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Vighnesh Gunaga. All rights reserved.</p>
+        <p><span style="color: red; font-size: xx-large;">&hearts;</span></p>
+        <p>
+            <a href="mailto:gunagavighnesh6571@example.com">Contact Me</a> |
+            <a href="https://www.instagram.com/vighnesh_gunaga_" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/Vighnesh Gunaga" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer.', 'Artist.', 'Photo Editor.', 'Canva Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
